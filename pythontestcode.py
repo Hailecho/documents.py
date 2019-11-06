@@ -12,4 +12,6 @@ def test_cal_add(a,b, expected):
 def test_cal_multi(c, d, expected):
     pro = cal_product(c, d)
     assert pro == expected
-    
+
+def cal_add(a, b):
+    print(a + b)
